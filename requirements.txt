@@ -36,6 +36,6 @@ umpy ==0.1.0
 urllib3 ==1.26.11
 Werkzeug ==2.2.1
 wheel==0.37.1
-gunicorn
+gunicorn==20.1.0
 wincertstore==0.2
 yarg==0.1.9
