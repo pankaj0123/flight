@@ -1,1 +1,1 @@
-web: gunicorn flight.wsgi --log-file -
+web: gunicorn gettingstarted.wsgi --log-file -
