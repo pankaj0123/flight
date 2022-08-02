@@ -1,0 +1,67 @@
+<html>
+<head>
+
+<title>Flight Delay</title>
+<style>
+
+form {
+
+text-align:center
+}
+
+input{
+width: 50%
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  width: 10%
+}
+
+select {
+width: 50%;
+}
+label {
+  font-size: 20px;
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}​
+
+
+</style>
+</head>
+
+<body>
+<center><img src="/static/Flights-1.webp" alt="titanic logo",width="200" height="200">
+<center><h1>Prediction :{{ results}}</h1></center>
+
+<form action="{{ url_for('predict')}}" method="post">
+
+
+<label for = "age">Flight </label>
+<input type = 'text' id = 'age', name = 'fl', required = 'required', placeholder = 'Enter Flight id..' />
+
+<br></br>
+
+
+<label for = "fare">Origin </label>
+<input type = 'text' id = 'fare', name = 'or', required = 'required', placeholder = 'Enter Origin..' />
+
+
+<br></br>
+
+<label></label>
+<input id="submit" type="submit" value="Predict" ></input>
+
+</form>
+
+</body>
+
+
+
+
+
+
+</html>
