@@ -1,5 +1,5 @@
 
-# Flight Dealy Predictor
+# Flight Dealy Prediction
 When planning a trip, passengers should keep in mind that airlines do not guarantee their schedules. While airlines want to get passengers to their destinations on time, there are many things that can – and sometimes do – make it difficult for flights to arrive on time. Some problems, like bad weather, air traffic delays, and mechanical issues, are hard to predict and often beyond the airlines’ control. In this project we want predict the flight dealy.
 
 ## Understanding the Dataset
@@ -25,23 +25,21 @@ Feature selection we used Lasso and Selecteformmodel. In this setp we fit Indepe
 
 ## Model Building
 
-### Descion Tree Regressor
-Decision tree regression observes features of an object and trains a model in the structure of a tree to predict data in the future to produce meaningful continuous output. Continuous output means that the output/result is not discrete, i.e., it is not represented just by a discrete, known set of numbers or values.
+### Logistic Regression
+Logistic regression estimates the probability of an event occurring, such as delayed or not, based on a given dataset of independent variables. Since the outcome is a probability, the dependent variable is bounded between 0 and 1.
 
-- Mean Absolute Error: 0.2782590113510548
-- Mean Squared Error: 14.042787834325525
-- Root Mean Squared Error: 3.7473707895437203
+Model Accuracy = 55%
 
 ## Deployment
 ### Flask 
 Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.[2] It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
-- The out will be ginven in minutes.
+- The output will print where flight is delayed or not.
 - The app runs on local host.
 - To deplot it on the internet we have to deploy it on Heroku.
 
 ### Heroku
-We deploy our Flask app to [Heroku.com][https://flightd.herokuapp.com/].
+We deploy our Flask app to [].
 
 We prepared the needed files to deploy our app sucessfully:
 - Procfile: Contains run statements for app file.
