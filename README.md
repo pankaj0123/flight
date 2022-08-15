@@ -21,7 +21,7 @@ In feature engineering we treat the data that we seen in Exploratory Data Analys
 * Missing Values: In this proces we drop few columns containing 90% null values. After removing we used median method to fill Na values.
 
 ## Feature Selection
-Feature selection we used Lasso and Selecteformmodel. In this setp we fit Independent features and got four fatures Scheduled_Time, Departure_Delay, Wheels_off and Elaspsed_Time are Independent features.
+Feature selection we used Lasso and Selecteformmodel. In this setp we fit Independent features and got 2 fatures Flight and origin are Independent features.
 
 ## Model Building
 
