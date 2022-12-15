@@ -1,5 +1,5 @@
 
-# Flight Dealy Prediction
+# Flight Delay Prediction
 When planning a trip, passengers should keep in mind that airlines do not guarantee their schedules. While airlines want to get passengers to their destinations on time, there are many things that can – and sometimes do – make it difficult for flights to arrive on time. Some problems, like bad weather, air traffic delays, and mechanical issues, are hard to predict and often beyond the airlines’ control. In this project we want predict the flight dealy.
 
 ## Understanding the Dataset
